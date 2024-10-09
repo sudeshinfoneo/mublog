@@ -11,6 +11,7 @@ import Archive from "./components/Archive";
 import Contact from "./components/Contact";
 import Blogs from "./components/Blogs";
 import Singleblog from "./components/Pages/Singleblog";
+import AddBlog from "./components/Blogs/AddBlog";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/archive" element={<Archive />} />
           <Route path="/blogs" element={<Blogs />}/>
           <Route path="/contact" element={<Contact />}/>
+          <Route path="/addBlog" element={<AddBlog />}/>
           <Route path="/pages/singleblog" element={<Singleblog />} />          
         </Routes>   
       </main>
