@@ -8,6 +8,18 @@ const Router = createBrowserRouter([
         element: <Home />
     },
     {
+        path: '/archive',
+        element: <Archive />
+    },
+    {
+        path: 'blogs',
+        element: <Blogs />
+    },
+    {
+        path: 'contact',
+        element: <Contact />
+    },
+    {
         path: '/pages/singleblog',
         element: <Singleblog />
     }

@@ -8,6 +8,8 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Archive from "./components/Archive";
+import Contact from "./components/Contact";
+import Blogs from "./components/Blogs";
 import Singleblog from "./components/Pages/Singleblog";
 
 
@@ -19,8 +21,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/archive" element={<Archive />} />
-          <Route path="/pages/singleblog" element={<Singleblog />}/>
-          
+          <Route path="/blogs" element={<Blogs />}/>
+          <Route path="/contact" element={<Contact />}/>
+          <Route path="/pages/singleblog" element={<Singleblog />} />          
         </Routes>   
       </main>
       <Footer />     
