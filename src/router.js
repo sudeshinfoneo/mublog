@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Home from "./components/Home";
 import Singleblog from "./components/Pages/Singleblog";
 import AddBlog from "./components/Blogs/AddBlog";
+import Elements from "./components/Pages/Elements";
 
 const Router = createBrowserRouter([
     {
@@ -27,6 +28,10 @@ const Router = createBrowserRouter([
     {
         path: '/pages/singleblog',
         element: <Singleblog />
+    },
+    {
+        path: '/pages/elements',
+        element: <Elements />
     }
     
 ])

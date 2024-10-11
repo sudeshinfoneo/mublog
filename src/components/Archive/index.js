@@ -21,7 +21,7 @@ import Insta6 from '../../assets/img/instagram_6.png.webp';
 const Archive = () => {
     return (
         <>
-            <section className="all_post section_padding">
+            <section className="all_post mt-4">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8">

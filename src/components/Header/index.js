@@ -34,7 +34,7 @@ const Header = () => {
                                             <Link to='/page' className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</Link>
                                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                                 <Link to='/pages/singleblog' className="dropdown-item">Single blog</Link>
-                                                <Link to='/elements' className="dropdown-item">Elements</Link>
+                                                <Link to='/pages/elements' className="dropdown-item">Elements</Link>
                                             </div>
                                         </li>
                                     </ul>

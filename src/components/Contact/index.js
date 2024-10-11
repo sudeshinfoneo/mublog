@@ -29,7 +29,7 @@ const Contact = () => {
     };
 
     return (
-        <section className="contact-section section_padding">
+        <section className="contact-section">
             <div className="container">
                 <div className="d-none d-sm-block mb-5 pb-4"></div>
                 <div className="row">

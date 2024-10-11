@@ -12,7 +12,7 @@ import Contact from "./components/Contact";
 import Blogs from "./components/Blogs";
 import Singleblog from "./components/Pages/Singleblog";
 import AddBlog from "./components/Blogs/AddBlog";
-
+import Elements from "./components/Pages/Elements";
 
 function App() {
   return (
@@ -25,7 +25,8 @@ function App() {
           <Route path="/blogs" element={<Blogs />}/>
           <Route path="/contact" element={<Contact />}/>
           <Route path="/addBlog" element={<AddBlog />}/>
-          <Route path="/pages/singleblog" element={<Singleblog />} />          
+          <Route path="/pages/singleblog" element={<Singleblog />} />  
+          <Route path="/pages/elements" element={<Elements />} />                 
         </Routes>   
       </main>
       <Footer />     
